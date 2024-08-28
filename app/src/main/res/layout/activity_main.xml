@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <!-- Primera fila -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#c0c9df">
+
+        <!-- ImageView para el primer logo -->
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:src="@drawable/logo_upiita"
+            android:layout_margin="10dp" />
+
+        <!-- TextView para el título -->
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:text="INSTITUTO POLITÉCNICO NACIONAL"
+            android:textColor="#B0A00C"
+            android:textSize="22sp"
+            android:layout_marginTop="10dp"
+            android:gravity="center" />
+
+        <!-- ImageView para el segundo logo -->
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:src="@drawable/logo_ipn"
+            android:layout_margin="10dp" />
+    </LinearLayout>
+
+    <!-- Segunda fila -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ededed">
+
+        <!-- TextView para el subtítulo -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UNIDAD PROFESIONAL INTERDISCIPLINARIA EN INGENIERÍA Y TECNOLOGÍAS AVANZADAS"
+            android:textColor="#B0A00C"
+            android:textSize="22sp"
+            android:layout_marginTop="10dp"
+            android:gravity="center" />
+
+        <!-- ImageView para la imagen -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:src="@drawable/logo_fotoupiita" />
+
+        <!-- TextView para el título -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="Programación de Dispositivos Móviles \n "
+            android:textColor="#6D254F"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+        <!-- ImageView para la imagen -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:src="@drawable/logo_alumno" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="Deciga Garcia Rafael \n Ingenieria Télematica \n Grupo 2TM9 "
+            android:textColor="#6D254F"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:src="@drawable/logo_jardin" />
+
+    </LinearLayout>
+</LinearLayout>
